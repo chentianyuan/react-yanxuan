@@ -1,0 +1,40 @@
+@import url('../../static/css/common.less');
+.mainWrap{
+    padding-top: .45rem;
+    .router-view{
+        padding-top: .4rem;
+        padding-bottom: .5rem;
+    }
+}
+.App-nav{
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: .5rem;
+    border-top: 1px solid #eee;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    .App-nav-link{
+        text-align: center;
+        i{
+            display: inline-block;
+            line-height: .3rem;
+            width: 100%;
+            color: @font-color;
+            font-size: .2rem;
+        }
+        .text{
+            color: @font-color;
+            font-size: .1rem;
+        }
+    }
+    .active{
+        i, .text{
+            font-weight: bold;
+            color: @active-color;
+        }
+    }
+}

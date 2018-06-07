@@ -1,0 +1,134 @@
+@import url('../../../static/css/common.less');
+.mainHome{
+    .hot-til{
+        position: relative;
+        padding: 0 .12rem;
+        font-size: .12rem;
+        height: .4rem;
+        background: #fff;
+        h2{
+            font-size: .14rem;
+            font-weight: normal;
+            color: #83889a;
+            line-height: .4rem;
+        }
+        i{
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: .4rem;
+            width: .4rem;
+            text-align: center;
+            font-size: .24rem;
+            color: #666;
+            line-height: .4rem;
+        }
+    }
+    .hot-sale{
+        width: 100%;
+        padding: .12rem;
+        overflow: hidden;
+        .hot-1,.hot-2,.hot-3{
+            float: left;
+            box-sizing: content-box;
+            position: relative;
+            width: 1.42rem;
+            height: 1.28rem;
+            padding: .16rem;
+            margin-right: .02rem;
+            background: #f4f4f4;
+            h3{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: .14rem;
+                font-weight: 400;
+                color: #333;
+            }
+            p{
+                line-height: .28rem;
+                font-size: .16rem;
+                color: #333;
+                i{
+                    font-style: normal;
+                }
+            }
+            span{
+                font-size: .12rem;
+                display: inline-block;
+                line-height: 1;
+                color: #fff;
+                background: #d0bebe;
+                padding: .02rem .04rem;
+            }
+            img{
+                width: 1rem;
+                position: absolute;
+                height: 1rem;
+                right: 0;
+            }
+        }
+        .hot-2,.hot-3{
+            width: 1.51rem;
+            height: .55rem;
+            padding: .12rem;
+            margin: 0;
+            h3{
+                padding-right: .56rem;
+            }
+            span{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            img{
+                bottom: 0;
+                width: .56rem;
+                height: .56rem;
+            }
+        }
+        .hot-1{
+            span{
+                margin-top: .1rem;
+            }
+        }
+        .hot-2{
+            margin-bottom: .02rem;
+        }
+    }
+    .hope-like{
+        overflow: hidden;
+        width: 100%;
+        ul > li{
+            list-style: none;
+            float: left;
+            width: 50%;
+            text-align: center;
+            box-sizing: border-box;
+            padding: .12rem;
+            img{
+                width: 1.3rem;
+                height: 1.3rem;
+                margin-bottom: .08rem;
+            }
+            h3{
+                margin-bottom: .04rem;
+                overflow: hidden;
+                font-size: .16rem;
+                color: #28354c;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                line-height: .25rem;
+            }
+            p{
+                color: #ff695c;
+                i{
+                    font-size: .12rem;
+                    vertical-align: bottom;
+                    line-height: 1;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}

@@ -20,6 +20,15 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      !function () {
+          const oHtml = document.getElementsByTagName("html")[0]
+          const width = oHtml.clientWidth
+          if (width < 500){
+              oHtml.style.fontSize = 100 * (width / 375) + "px";
+          }
+      }()
+    </script>
   </head>
   <body>
     <noscript>
